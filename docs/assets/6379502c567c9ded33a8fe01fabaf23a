@@ -1,0 +1,26 @@
+{
+  "name": "qrid",
+  "displayName": "Qrid",
+  "expo": {
+    "name": "qrid",
+    "slug": "qrid",
+    "runtimeVersion": "9",
+    "privacy": "unlisted",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ],
+    "android": {
+      "jsEngine": "hermes"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "plugins": [
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ]
+  }
+}
